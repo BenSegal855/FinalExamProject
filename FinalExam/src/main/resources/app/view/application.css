@@ -4,7 +4,7 @@
 
 .label {
     -fx-font-size: 12px;
-    -fx-text-fill: #333333;
+    -fx-text-fill: #000000;
 }
 
 #welcome-text {
@@ -20,12 +20,8 @@
 }
 
 .button {
-    -fx-text-fill: white;
+    -fx-text-fill: black;
     -fx-font-family: "Arial Narrow";
-    -fx-font-weight: bold;
-    -fx-background-color: linear-gradient(#0008AA, #000000);
-    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
-}
-.button:hover {
-    -fx-background-color: linear-gradient(#000000, #0008AA);
+    -fx-background-color: #CD6597;
+   
 }
